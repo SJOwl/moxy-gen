@@ -3,15 +3,15 @@ package a.j.sp.main
 import java.io.File
 
 val templatesPath = "/Users/evgeniivorobei/Documents/MvpGenTemplates/"
-val path = "/Users/evgeniivorobei/Downloads/MvpGen/SearchResultList"
+val path = "/Users/evgeniivorobei/Downloads/MvpGen/"
 
-val date = "06/09/2018"
+val date = "18/10/2018"
 val author = "vorobei"
 
-val name = "MyClassName"
-val nameSmall = "newClassName"
-val layoutId = "fragment_settings_push_notifications"
-val packageName = "com.fulldive.evry.presentation.mytemplate"
+val name = "Search"
+val nameSmall = "search" // todo automate (name beginning with small letter)
+val layoutId = "fragment_search"
+val packageName = "com.fulldive.evry.presentation.search"
 
 val templates = arrayOf(
         "View",
