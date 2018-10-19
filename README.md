@@ -1,6 +1,7 @@
 # moxy-gen
 Generate mvp files for new screen
 
+```
 Instructions:
 Open Main.kt
 Set params:
@@ -16,3 +17,4 @@ val layoutId = "fragment_search"
 val packageName = "com.fulldive.evry.presentation.search"
 
 launch Main.kt
+```
