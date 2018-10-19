@@ -2,8 +2,7 @@ package a.j.sp.main
 
 import java.io.File
 
-val templatesPath = "/Users/evgeniivorobei/Documents/MvpGenTemplates/"
-val path = "/Users/evgeniivorobei/Downloads/MvpGen/"
+val path = "/Users/evgeniivorobei/Downloads/MvpGenX/"
 
 val date = "18/10/2018"
 val author = "vorobei"
@@ -23,6 +22,7 @@ val templates = arrayOf(
         "RepositoryRemote"
 )
 
+val templatesPath = "./MvpGenTemplates/"
 
 fun main(args: Array<String>) {
     // todo get all files in templatePath

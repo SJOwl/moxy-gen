@@ -18,6 +18,9 @@ class ${name}Presenter @Inject constructor(
 
     fun onBack() = router.exit()
 
+    /**
+     * Called onResume for fragment - set view state here
+     */
     fun updateView() {
 
     }
